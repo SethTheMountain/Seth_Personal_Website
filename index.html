@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Seth Sorrell</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="section home">
+    <h1>Who is the Mountain?</h1>
+    <p>I am a aspiring software developer and college student from Kokomo, Indiana.</p>
+  </section>
+
+  <br>
+
+  <img src="seth.png" class="SethPro">
+
+  <br>
+  
+  <section id="about" class="section about">
+    <h2>About Me</h2>
+    <p>Before entering the software development field, I studied and worked in the field of machining. 
+      I specilize in HTML, CSS, JavaScript, and Python.</p>
+  </section>
+
+  <section id="projects" class="section projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project-item">
+        <h3>News Aggregator</h3>
+        <p>My News Aggregator used a functioning search system to find news sources from different publications and topics.</p>
+      </div>
+      <div class="project-item">
+        <h3>Chat Application</h3>
+        <p>My Chat Application uses a Server script and a Client script to allow
+          text based communication between devices using the application on the same server.
+        </p>
+      </div>
+      <!-- Add more project items as needed -->
+    </div>
+  </section>
+
+  <section id="ContactInfo" class="section ContactInfo">
+    <h2>Seth's Contact Information</h2>
+    <div class="contact-list">
+      <div class="contact-item">
+        <h3>Email</h3>
+        <p>smsorrell27@gmail.com</p>
+      </div>
+      <div class="contact-item">
+        <h3>Phone Number</h3>
+        <p> 765-513-8771</p>
+      </div>
+      <div class="contact-item">
+        <a href="https://www.linkedin.com/in/sethsorellmt/">LinkedIn</a>
+      </div>
+
+  <section id="contact" class="section contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Seth Sorrell. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
